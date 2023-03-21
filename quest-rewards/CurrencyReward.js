@@ -1,6 +1,6 @@
 'use strict';
 
-const { QuestReward } = require('ranvier');
+const { QuestReward } = require('whispermud-core');
 
 /**
  * Quest reward that gives experience

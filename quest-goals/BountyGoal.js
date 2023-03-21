@@ -1,6 +1,6 @@
 'use strict';
 
-const { Logger, QuestGoal } = require('ranvier');
+const { Logger, QuestGoal } = require('whispermud-core');
 
 module.exports = class BountyGoal extends QuestGoal {
   constructor(quest, config, player) {

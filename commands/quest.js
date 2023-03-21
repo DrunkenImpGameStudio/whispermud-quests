@@ -1,8 +1,8 @@
 'use strict';
 
-const { Broadcast: B, CommandManager } = require('ranvier');
+const { Broadcast: B, CommandManager } = require('whispermud-core');
 const say = B.sayAt;
-const ArgParser = require('../../bundle-example-lib/lib/ArgParser');
+const ArgParser = require('../../whispermud-lib/lib/ArgParser');
 
 const subcommands = new CommandManager();
 subcommands.add({

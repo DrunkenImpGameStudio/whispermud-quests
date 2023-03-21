@@ -1,6 +1,6 @@
 'use strict';
 
-const { QuestGoal } = require('ranvier');
+const { QuestGoal } = require('whispermud-core');
 
 /**
  * A quest goal requiring the player kill a certain target a certain number of times
